@@ -3,3 +3,13 @@ h1. rah_knots
 p. "Twitter":http://twitter.com/gocom | "GitHub":https://github.com/gocom/rah_knots | "Donate":http://rahforum.biz/donate/rah_knots
 
 p. Save "Textpattern CMS'":http://textpattern.com editors with two familiar keyboard shortcuts, Command+S and CTRL+S.
+
+h2. Toolshed notice
+
+p. This is a toolshed project. Experimental and not part of the main supported product line of Rah. Not yet at least. Please use at your own risk.
+
+h2. Changelog
+
+h3. Version - 2012/08/30
+
+* Initial release.
