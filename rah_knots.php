@@ -65,7 +65,7 @@ EOF;
 						});
 				});
 
-				$(window).on('keypress keydown', function(e) {
+				$(window).keydown(function(e) {
 					if(e.which === 19 || (String.fromCharCode(e.which).toLowerCase() === 's' && (e.metaKey || e.ctrlKey))) {
 						var obj = $('form .publish');
 						if(obj.length) {
