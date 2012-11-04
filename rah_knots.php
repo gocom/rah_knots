@@ -61,7 +61,7 @@ EOF;
 					$('form .publish').eq(0)
 						.after('<small class="rah_knots_tip information">'+tipText+'</small>')
 						.hover(function() {
-							$(this).next('.rah_knots_tip').fadeToggle();
+							$(this).siblings('.rah_knots_tip').fadeToggle();
 						});
 				});
 
