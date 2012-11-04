@@ -39,11 +39,10 @@ class rah_knots
 	{
 		echo <<<EOF
 			<style type="text/css">
-				.rah_knots_tip {
-					position: absolute;
-					margin: 1em 0 0 0.5em;
-					display: none;
-					vertical-align: baseline;
+				.rah_knots_tip
+				{
+					margin: 0 0.5em;
+					visibility: hidden;
 				}
 			</style>
 EOF;
@@ -67,9 +66,20 @@ EOF;
 
 					$('form .publish').eq(0)
 						.after('<small class="rah_knots_tip information">'+tipText+'</small>')
-						.hover(function() {
-							$(this).siblings('.rah_knots_tip').fadeToggle();
-						});
+						.hover(
+							function() {
+								$(this).siblings('.rah_knots_tip')
+									.css('opacity', 0)
+									.css('visibility', 'visible')
+									.fadeTo(600, 1);
+							},
+							function() {
+								$(this).siblings('.rah_knots_tip')
+									.fadeTo(300, 0, function() {
+										$(this).css('visibility', 'hidden');
+									});
+							}
+						);
 				});
 
 				$(window).keydown(function(e) {
