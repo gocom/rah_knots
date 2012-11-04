@@ -78,7 +78,12 @@ EOF;
 										$(this).css('visibility', 'hidden');
 									});
 							}
-						);
+						)
+						.click(function() {
+							$(this).siblings('.rah_knots_tip')
+								.css('opacity', 0)
+								.css('visibility', 'hidden');
+						});
 				});
 
 				$(window).keydown(function(e) {
