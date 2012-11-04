@@ -10,6 +10,11 @@ p. This is a toolshed project. Experimental and not part of the main supported p
 
 h2. Changelog
 
-h3. Version - 2012/08/30
+h3. Version 0.2 - upcoming
+
+* Fixed: The tip label works with multiple siblings.
+* Changed: Reserve space for the tip label instead of overlaying content.
+
+h3. Version 0.1 - 2012/08/30
 
 * Initial release.
