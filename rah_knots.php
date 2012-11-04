@@ -41,7 +41,6 @@ class rah_knots
 			<style type="text/css">
 				.rah_knots_tip
 				{
-					margin: 0 0.5em;
 					visibility: hidden;
 				}
 			</style>
@@ -65,7 +64,7 @@ EOF;
 					}
 
 					$('form .publish').eq(0)
-						.after('<small class="rah_knots_tip information">'+tipText+'</small>')
+						.after(' <small class="rah_knots_tip information">'+tipText+'</small> ')
 						.hover(
 							function() {
 								$(this).siblings('.rah_knots_tip')
