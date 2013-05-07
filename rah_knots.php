@@ -49,7 +49,8 @@ EOF;
 		$js = <<<EOF
 			(function ($)
 			{
-				$(document).ready(function() {
+				$(document).ready(function ()
+				{
 					var tipText = 'CTRL+S';
 
 					if (navigator.userAgent.indexOf('Mac OS X') !== -1)
@@ -60,27 +61,31 @@ EOF;
 					$('form .publish').eq(0)
 						.after(' <small class="rah_knots_tip information">'+tipText+'</small> ')
 						.hover(
-							function() {
+							function ()
+							{
 								$(this).siblings('.rah_knots_tip')
 									.css('opacity', 0)
 									.css('visibility', 'visible')
 									.fadeTo(600, 1);
 							},
-							function() {
+							function ()
+							{
 								$(this).siblings('.rah_knots_tip')
 									.fadeTo(300, 0, function() {
 										$(this).css('visibility', 'hidden');
 									});
 							}
 						)
-						.click(function() {
+						.click(function ()
+						{
 							$(this).siblings('.rah_knots_tip')
 								.css('opacity', 0)
 								.css('visibility', 'hidden');
 						});
 				});
 
-				$(window).keydown(function(e) {
+				$(window).keydown(function (e)
+				{
 					if (e.which === 19 || (String.fromCharCode(e.which).toLowerCase() === 's' && (e.metaKey || e.ctrlKey)))
 					{
 						var obj = $('form .publish');
