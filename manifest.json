@@ -1,7 +1,7 @@
 {
 	"name"        : "rah_knots",
 	"description" : "Command+Save editors",
-	"version"     : "0.2",
+	"version"     : "0.3.0",
 	"type"        : 3,
 	"author"      : "Jukka Svahn",
 	"author_uri"  : "http://rahforum.biz",
