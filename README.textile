@@ -4,18 +4,24 @@ p. "Packagist":https://packagist.org/packages/rah/rah_knots | "Twitter":http://t
 
 p. Save "Textpattern CMS'":http://textpattern.com editors with two familiar keyboard shortcuts, Command+S and CTRL+S.
 
+h2. Installing
+
+p. Using "Composer":http://getcomposer.org:
+
+bc. $ composer.phar require rah/rah_knots
+
 h2. Toolshed notice
 
 p. This is a toolshed project. Experimental and not part of the main supported product line of Rah. Not yet at least. Please use at your own risk.
 
 h2. Changelog
 
-h3. Version 0.2 - 2012/11/04 - "Download":http://rahforum.biz/d/rah_knots_v0.2_zip.txt
+h3. Version 0.2 - 2012/11/04
 
 * Fixed: The tip label works with multiple siblings.
 * Changed: Reserve space for the tip label instead of overlaying content.
 * Changed: Hide the tip label on button click.
 
-h3. Version 0.1 - 2012/08/30 - "Download":http://rahforum.biz/d/rah_knots_v0.1_zip.txt
+h3. Version 0.1 - 2012/08/30
 
 * Initial release.
