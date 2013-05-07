@@ -12,12 +12,6 @@
  * http://www.gnu.org/licenses/gpl-2.0.html
  */
 
-	new rah_knots();
-
-/**
- * The plugin class.
- */
-
 class rah_knots
 {
 	/**
@@ -102,5 +96,7 @@ EOF;
 		echo script_js($js);
 	}
 }
+
+new rah_knots();
 
 ?>
