@@ -1,0 +1,23 @@
+{
+	"name": "rah/rah_knots",
+	"description": "CMD+S and CTRL+S Textpattern CMS editors",
+	"keywords": ["textpattern", "plugin"],
+	"homepage": "https://github.com/gocom/rah_knots",
+	"license": "GPL-2.0",
+	"type": "textpattern-plugin",
+	"authors": [
+		{
+			"name": "Jukka Svahn",
+			"homepage": "http://rahforum.biz",
+			"role": "Developer"
+		}
+	],
+	"support": {
+		"issues": "https://github.com/gocom/rah_knots/issues",
+		"source": "https://github.com/gocom/rah_knots"
+	},
+	"require": {
+		"textpattern/lock": ">=4.5.0",
+		"textpattern/installer": "*"
+	}
+}
