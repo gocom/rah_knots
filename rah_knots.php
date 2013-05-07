@@ -98,5 +98,3 @@ EOF;
 }
 
 new rah_knots();
-
-?>
