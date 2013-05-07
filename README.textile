@@ -1,6 +1,6 @@
 h1. rah_knots
 
-p. "Twitter":http://twitter.com/gocom | "GitHub":https://github.com/gocom/rah_knots | "Donate":http://rahforum.biz/donate/rah_knots
+p. "Packagist":https://packagist.org/packages/rah/rah_knots | "Twitter":http://twitter.com/gocom | "GitHub":https://github.com/gocom/rah_knots | "Donate":http://rahforum.biz/donate/rah_knots
 
 p. Save "Textpattern CMS'":http://textpattern.com editors with two familiar keyboard shortcuts, Command+S and CTRL+S.
 
