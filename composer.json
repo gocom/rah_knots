@@ -1,23 +1,38 @@
 {
-	"name": "rah/rah_knots",
-	"description": "CMD+S and CTRL+S Textpattern CMS editors",
-	"keywords": ["textpattern", "plugin"],
-	"homepage": "https://github.com/gocom/rah_knots",
-	"license": "GPL-2.0",
-	"type": "textpattern-plugin",
-	"authors": [
-		{
-			"name": "Jukka Svahn",
-			"homepage": "http://rahforum.biz",
-			"role": "Developer"
-		}
-	],
-	"support": {
-		"issues": "https://github.com/gocom/rah_knots/issues",
-		"source": "https://github.com/gocom/rah_knots"
-	},
-	"require": {
-		"textpattern/lock": ">=4.5.0",
-		"textpattern/installer": "*"
-	}
+    "name": "rah/rah_knots",
+    "description": "CMD+S and CTRL+S Textpattern CMS editors",
+    "keywords": ["textpattern", "plugin"],
+    "homepage": "https://github.com/gocom/rah_knots",
+    "license": "GPL-2.0",
+    "type": "textpattern-plugin",
+    "authors": [
+        {
+            "name": "Jukka Svahn",
+            "homepage": "https://github.com/gocom",
+            "role": "Developer"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/gocom/rah_knots/issues",
+        "source": "https://github.com/gocom/rah_knots"
+    },
+    "require": {
+        "textpattern/lock": ">=4.5.0",
+        "textpattern/installer": "*"
+    },
+    "require-dev": {
+        "rah/mtxpc": "^0.9.0",
+        "squizlabs/php_codesniffer": "3.*"
+    },
+    "scripts": {
+        "lint": "./vendor/bin/phpcs",
+        "lint-fix": "./vendor/bin/phpcbf",
+        "compile": "mtxpc --outdir=dist/ -c . && mtxpc --outdir=dist/ ."
+    },
+    "config": {
+        "allow-plugins": {
+            "textpattern/installer": true
+        }
+    },
+    "abandoned": true
 }

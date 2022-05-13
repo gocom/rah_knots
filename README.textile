@@ -1,18 +1,18 @@
 h1. rah_knots
 
-p. "Packagist":https://packagist.org/packages/rah/rah_knots | "Twitter":http://twitter.com/gocom | "GitHub":https://github.com/gocom/rah_knots | "Donate":http://rahforum.biz/donate/rah_knots
+*This functionality is now part of current Textpattern CMS versions. This plugin is not needed and is deprecated.*
 
-p. Save "Textpattern CMS'":http://textpattern.com editors with two familiar keyboard shortcuts, Command+S and CTRL+S.
+"Download":https://github.com/gocom/rah_knots/releases | "Packagist":https://packagist.org/packages/rah/rah_knots | "Issues":https://github.com/gocom/rah_knots/issues
+
+Save "Textpattern CMS'":https://textpattern.com editors with two familiar keyboard shortcuts, Command+S and CTRL+S.
 
 h2. Installing
 
-p. Using "Composer":http://getcomposer.org:
+Using "Composer":https://getcomposer.org:
 
 bc. $ composer.phar require rah/rah_knots
 
-h2. Toolshed notice
-
-p. This is a toolshed project. Experimental and not part of the main supported product line of Rah. Not yet at least. Please use at your own risk.
+Or "download":https://github.com/gocom/rah_knots/releases an installer package.
 
 h2. Changelog
 
